@@ -32,6 +32,8 @@ trashButton.classList.add("trash-btn");
 todoDiv.appendChild(trashButton);
 //Append To List
 todoList.appendChild(todoDiv);
+//Clear Todo Input Value
+todoInput.value = " ";
 }
 
 
